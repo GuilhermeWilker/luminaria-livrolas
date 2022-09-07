@@ -25,7 +25,7 @@
 - Na lista de livros, decidimos apresentar de forma breve os titúlos e descrição de cada um deles.
   <br>
 
-<h3>Você pode acessar esta aplicação <a href="#" target="_blank">clicando aqui!</a></h3>
+<h3>Você pode acessar esta aplicação <a href="https://guilhermewilker.github.io/luminaria-livrolas/" target="_blank">clicando aqui!</a></h3>
 
 ## Roadmap
 
