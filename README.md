@@ -9,19 +9,19 @@
 ## Demonstração da aplicação
 
 <h5>Pagina inicial - tema padrão</h5>
-<img width="350px" src="src/img/readme-img/Group%2044.png" />
-<img width="350px" src="src/img/readme-img/demo-pagina-inicial.png" />
+<img width="450px" src="src/img/readme-img/Group%2044.png" />
+<img width="450px" src="src/img/readme-img/demo-pagina-inicial.png" />
 <br>
 
 <h5>Pagina inicial - tema noturno</h5>
-<img width="350px" src="src/img/readme-img/Group%2043.png" />
-<img width="350px" src="src/img/readme-img/Group%2042.png" />
+<img width="450px" src="src/img/readme-img/Group%2043.png" />
+<img width="450px" src="src/img/readme-img/Group%2042.png" />
 - Nestes ambientes demos o foco principal na leitura do usuário, <br> enfatizando o leitor de texto e também apresentando uma tipografia clara deixando sua leitura mais prazerosa.
   <br>
 
 <h5>Listagem dos livros - tema padrão e noturno</h5>
-<img width="350px" src="src/img/readme-img/demo-pagina-lista.png" />
-<img width="350px" src="src/img/readme-img/Group%2041.png" />
+<img width="450px" src="src/img/readme-img/demo-pagina-lista.png" />
+<img width="450px" src="src/img/readme-img/Group%2041.png" />
 - Na lista de livros, decidimos apresentar de forma breve os titúlos e descrição de cada um deles.
   <br>
 
