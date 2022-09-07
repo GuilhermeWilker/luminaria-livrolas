@@ -25,7 +25,7 @@
 - Na lista de livros, decidimos apresentar de forma breve os titúlos e descrição de cada um deles.
   <br>
 
-<p style="font-size: 22px;">Você pode acessar esta aplicação <a href="#" target="_blank">clicando aqui!</a></p>
+<h2>Você pode acessar esta aplicação <a href="#" target="_blank">clicando aqui!</a></h2>
 
 ## Roadmap
 
