@@ -15,11 +15,13 @@
 <h5>Pagina inicial - tema noturno</h5>
 <img width="500px" src="src/img/readme-img/Group%2043.png" />
 <img width="500px" src="src/img/readme-img/Group%2042.png" />
+
 - Nestes ambientes demos o foco principal na leitura do usuário, <br> enfatizando o leitor de texto e também apresentando uma tipografia clara deixando sua leitura mais prazerosa.
 
 <h5>Listagem dos livros - tema padrão e noturno</h5>
 <img width="500px" src="src/img/readme-img/demo-pagina-lista.png" />
 <img width="500px" src="src/img/readme-img/Group%2041.png" />
+
 - Na lista de livros, decidimos apresentar de forma breve os titúlos e descrição de cada um deles.
   <br>
 
