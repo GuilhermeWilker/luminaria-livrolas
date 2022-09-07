@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Leia seus livros favoritos de forma gratuita e sem anuncios."
+    />
+    <link rel="shortcut icon" href="src/img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/responsivo.css" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="src/css/var.css" />
+
+    <title>Luminária livrolas</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li class="roxo-claro tema">
+              <input type="checkbox" name="tema" id="tema">  
+              <label for="tema" id="tema">Mudar tema</label>
+          </li>
+
+          <li class="vazio"></li>
+
+          <li class="roxo-claro lista-livros">
+            <a href="#section-card-lista" class="lista-livros">
+              Lista de livros disponível
+            </a>
+          </li>
+
+          <li class="vazio"></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <aside>
+        <div class="box-logo">
+          <img src="src/img/eslogan.png" class="logo" />
+        </div>
+
+        <div class="card-livroRecomendados">
+          <h3>Livros recomendados</h3>
+
+          <div class="card-livro">
+            <h4>Solaris</h4>
+            <p>Solaris, romance de ficção científica.</p>
+
+            <button onclick="carregarLivro('Solaris.txt', 'Solaris')">Ler</button>
+            
+            <img src="src/img/icone-livro.png" alt="Icone livro" />
+          </div>
+
+          <div class="card-livro">
+            <h4>1984</h4>
+            <p>Romance distópico de 1949 do escritor George Orwell</p>
+
+            <button onclick="carregarLivro('1984.txt', '1984')">Ler</button>
+
+            <img src="src/img/icone-livro.png" alt="Icone livro" />
+          </div>
+        </div>
+      </aside>
+
+      <section>
+        <div class="card-leitor">
+          <div class="titulo-card">
+            <h3 id="titulo-livro">Selecione o seu livro</h3>
+          </div>
+          <div class="texto-livro"></div>
+        </div>
+      </section>
+    </main>
+    
+  <section id="section-card-lista">
+    <div class="card-livroListados">
+      <h3>Livros listados</h3>
+
+      <div id="card-lista">
+        <div class="card-livro">
+          <h4>Solaris</h4>
+          <p>Solaris, romance de ficção científica.</p>
+
+          <button 
+          onclick="carregarLivro('Solaris.txt', 'Solaris'), 
+          voltarAoTopo()">
+            Ler
+          </button>
+
+          <img src="src/img/icone-livro.png" alt="Icone livro" />
+        </div>
+
+        <div class="card-livro">
+          <h4>1984</h4>
+          <p>Romance distópico de 1949 do escritor George Orwell</p>
+
+          <button 
+          onclick="carregarLivro('1984.txt', '1984'), 
+          voltarAoTopo()">
+          Ler
+          </button>
+
+          <img src="src/img/icone-livro.png" alt="Icone livro" />
+        </div>
+
+        <div class="card-livro">
+          <h4>Uma Odisséia no Espaço</h4>
+          <p>2001: Uma Odisséia no Espaço, ficção científica de 1968.</p>
+
+          <button 
+          onclick= "carregarLivro('2001 Uma Odisséia no Espaço.txt', '2001 Uma Odisséia no Espaço'),
+          voltarAoTopo()">
+           Ler
+          </button>
+
+          <img src="src/img/icone-livro.png" alt="Icone livro" />
+        </div>
+
+        <div class="card-livro">
+          <h4>A História sem Fim</h4>
+          <p>A História sem Fim, livro de fantasia alemão de 1979</p>
+
+          <button 
+          onclick="carregarLivro('A História Sem Fim.txt', 'A história sem fim'), 
+          voltarAoTopo()">
+          Ler
+          </button>
+
+          <img src="src/img/icone-livro.png" alt="Icone livro" />
+        </div>
+
+        <div class="card-livro">
+          <h4>Hamlet</h4>
+          <p>Tragédia de densa narrativa reflexiva, por Shakespeare</p>
+
+          <button 
+          onclick="carregarLivro('Hamlet.txt', 'Hamlet - Shakespeare'), 
+          voltarAoTopo()">
+          Ler
+          </button>
+
+          <img src="src/img/icone-livro.png" alt="Icone livro" />
+        </div>
+
+        <div class="card-livro">
+          <h4>Sherlock Holmes</h4>
+          <p>Obra comepleta das aventuras do detetive famoso da litetura</p>
+
+          <button onclick="carregarLivro('Sherlock Holmes - Obra completa.txt', 'Sherlock Holmes'), 
+          voltarAoTopo()">
+          Ler
+          </button>
+
+          <img src="src/img/icone-livro.png" alt="Icone livro" />
+        </div>
+
+        <div class="card-livro">
+          <h4>Dom Casmurro</h4>
+          <p>Dom Casmurro,romance escrito por Machado de Assis em 1899</p>
+
+          <button 
+          onclick="carregarLivro('Dom Casmurro.txt', 'Dom Casmurro'), 
+          voltarAoTopo()">
+          Ler
+          </button>
+
+          <img src="src/img/icone-livro.png" alt="Icone 
+          livro" />
+        </div>
+
+        <div class="card-livro">
+          <h4>Blade Runner</h4>
+          <p>Cyberpunk futurista <br> zZZ</p>
+
+          <button 
+          onclick="carregarLivro('Blade Runner Androides Sonham.txt', 'Blade Runner'), 
+          voltarAoTopo()">
+          Ler
+          </button>
+
+          <img src="src/img/icone-livro.png" alt="Icone livro" />
+        </div>
+      
+        <div class="card-livro">
+          <h4>Franksteins</h4>
+          <p>Romance gótico, por Mary shirlley</p>
+
+          <button 
+          onclick="carregarLivro('Frankenstein.txt', 'Frankenstein'), 
+          voltarAoTopo()">
+            Ler
+          </button>
+          <img src="src/img/icone-livro.png" alt="Icone livro" />
+        </div>
+
+      </div>
+      <br>
+      <br>
+  </section>
+
+    <script src="src/js/index.js"></script>
+  </body>
+</html>

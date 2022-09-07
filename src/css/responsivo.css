@@ -1,0 +1,313 @@
+@media (max-width: 1370px) {
+  body header {
+    margin-top: 40px;
+  }
+
+  body main {
+    margin-top: 30px;
+  }
+
+  .box-logo {
+    width: 279px;
+    height: 140px;
+  }
+
+  aside .card-livroRecomendados {
+    margin-top: 20px;
+  }
+
+  aside .card-livroRecomendados .card-livro {
+    margin-top: 29px;
+    padding: 15px;
+
+    width: 295px;
+  }
+
+  aside .card-livroRecomendados .card-livro h4 {
+    font-size: 24px;
+  }
+
+  section .card-leitor {
+    height: 580px;
+    width: 600px;
+  }
+  #section-card-lista {
+    margin: 0 auto;
+    width: 800px;
+  }
+}
+
+@media (max-width: 1024px) {
+  body {
+    width: 1024px;
+  }
+  body header {
+    margin-top: 28px;
+  }
+
+  body main {
+    margin-top: 30px;
+  }
+
+  .box-logo {
+    width: 279px;
+    height: 140px;
+  }
+
+  aside .card-livroRecomendados {
+    margin-top: 20px;
+  }
+
+  aside .card-livroRecomendados .card-livro {
+    margin-top: 29px;
+    padding: 15px;
+
+    width: 295px;
+  }
+
+  aside .card-livroRecomendados .card-livro h4 {
+    font-size: 24px;
+  }
+
+  section .card-leitor {
+    height: 670px;
+    width: 500px;
+  }
+
+  #section-card-lista {
+    margin: 0 auto;
+    width: 800px;
+  }
+}
+
+@media (max-width: 425px) {
+  body {
+    max-width: 360px;
+  }
+
+  body header {
+    align-items: center;
+    justify-content: center;
+
+    margin-top: -10px;
+  }
+
+  body header nav ul .vazio {
+    display: none;
+  }
+
+  body header nav ul {
+    display: block;
+  }
+
+  body header nav ul .tema {
+    display: none;
+  }
+
+  body header nav ul .roxo-claro {
+    margin-top: 20px;
+  }
+
+  body main {
+    flex-direction: column;
+
+    align-items: center;
+  }
+
+  aside .box-logo {
+    margin-right: 60px;
+    margin-top: -8px;
+
+    width: 233px;
+    height: 119px;
+  }
+
+  aside .card-livroRecomendados {
+    display: none;
+    width: 0;
+    height: 0;
+  }
+
+  section .card-leitor {
+    margin-top: -65px;
+
+    width: 302px;
+    height: 576px;
+  }
+
+  #section-card-lista {
+    /* display: none; */
+    width: 360px;
+  }
+
+  #section-card-lista .card-livro {
+    width: 271px;
+    padding: 10px;
+    margin: 8px;
+  }
+
+  #section-card-lista .card-livro img {
+    display: none;
+  }
+
+  #section-card-lista .card-livro p {
+    width: 200px;
+  }
+  #section-card-lista .card-livro h4 {
+    width: 230px;
+  }
+}
+@media (max-width: 360px) {
+  body {
+    max-width: 360px;
+  }
+
+  body header {
+    align-items: center;
+    justify-content: center;
+
+    margin-top: -10px;
+  }
+
+  body header nav ul .vazio {
+    display: none;
+  }
+
+  body header nav ul {
+    display: block;
+  }
+
+  body header nav ul .tema {
+    display: none;
+  }
+
+  body header nav ul .roxo-claro {
+    margin-top: 20px;
+  }
+
+  body main {
+    flex-direction: column;
+
+    align-items: center;
+  }
+
+  aside .box-logo {
+    margin-right: 60px;
+    margin-top: -8px;
+
+    width: 233px;
+    height: 119px;
+  }
+
+  aside .card-livroRecomendados {
+    display: none;
+    width: 0;
+    height: 0;
+  }
+
+  section .card-leitor {
+    margin-top: -65px;
+
+    width: 302px;
+    height: 576px;
+  }
+
+  #section-card-lista {
+    /* display: none; */
+    width: 360px;
+  }
+
+  #section-card-lista .card-livro {
+    width: 271px;
+    padding: 10px;
+    margin: 8px;
+  }
+
+  #section-card-lista .card-livro img {
+    display: none;
+  }
+
+  #section-card-lista .card-livro p {
+    width: 200px;
+  }
+  #section-card-lista .card-livro h4 {
+    width: 230px;
+  }
+}
+@media (max-width: 320px) {
+  body {
+    max-width: 360px;
+  }
+
+  body header {
+    align-items: center;
+    justify-content: center;
+
+    margin-top: -10px;
+  }
+
+  body header nav ul .vazio {
+    display: none;
+  }
+
+  body header nav ul {
+    display: block;
+  }
+
+  body header nav ul .tema {
+    display: none;
+  }
+
+  body header nav ul .roxo-claro {
+    margin-top: 20px;
+  }
+
+  body main {
+    flex-direction: column;
+
+    align-items: center;
+  }
+
+  aside .box-logo {
+    margin-right: 60px;
+    margin-top: -8px;
+
+    width: 233px;
+    height: 119px;
+  }
+
+  aside .card-livroRecomendados {
+    display: none;
+    width: 0;
+    height: 0;
+  }
+
+  section .card-leitor {
+    margin-top: -65px;
+
+    width: 302px;
+    height: 650px;
+  }
+
+  #section-card-lista {
+    /* display: none; */
+    width: 360px;
+  }
+
+  #section-card-lista .card-livro {
+    width: 271px;
+    padding: 10px;
+    margin: 8px;
+  }
+
+  #section-card-lista .card-livro img {
+    display: none;
+  }
+
+  #section-card-lista .card-livro p {
+    width: 200px;
+  }
+  #section-card-lista .card-livro h4 {
+    width: 230px;
+  }
+}

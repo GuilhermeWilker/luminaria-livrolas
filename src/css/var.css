@@ -1,0 +1,15 @@
+:root {
+  --sombra: #1e212d;
+  --roxo-claro: #c581cc;
+  --roxo-escuro: #783780;
+
+  --card-tip: #e3c770;
+  --background: #daffba;
+  --card: #a5cd81;
+  --card-titulo: #608044;
+
+  --card-tip-escuro: #755823;
+  --background-escuro: #465b75;
+  --card-escuro: #2f4f75;
+  --card-titulo-escuro: #141d28;
+}

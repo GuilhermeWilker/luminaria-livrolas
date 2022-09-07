@@ -1,0 +1,228 @@
+body {
+  font-family: "Noticia Text";
+  background-color: var(--background);
+  width: 1196px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  margin-top: 69px;
+}
+
+header nav ul {
+  display: flex;
+  height: 45px;
+  align-items: center;
+
+  font-weight: 600;
+}
+header nav ul .roxo-claro {
+  background-color: var(--roxo-claro);
+
+  width: 300px;
+  padding: 9px 80px;
+}
+
+header nav ul .lista-livros {
+  height: 60px;
+  width: 321px;
+  padding: 17px 30px;
+  transition: 0.2s;
+}
+header nav ul .lista-livros:hover {
+  background-color: var(--roxo-escuro);
+}
+
+header nav ul li {
+  border: 1px solid black;
+  background-color: var(--roxo-escuro);
+  padding: 9px 103px;
+  height: 45px;
+  width: 240px;
+  content: "";
+}
+/* MAIN */
+main {
+  display: flex;
+  gap: 80px;
+
+  margin-top: 75px;
+}
+
+/* ASIDE */
+
+.box-logo {
+  display: flex;
+  background-color: var(--card-titulo);
+  border: 2px solid black;
+  padding: 25px 30px 17px 25px;
+  margin-left: 55px;
+
+  box-shadow: 10px 10px 0px 0px var(--sombra);
+}
+
+.card-livroRecomendados {
+  margin-left: 55px;
+  margin-top: 110px;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.card-livroRecomendados h3 {
+  border: 2px solid black;
+  padding: 10px 34px;
+  font-size: 17px;
+
+  background-color: var(--card-tip);
+  box-shadow: 6px 6px 0px 0px var(--sombra);
+}
+
+.card-livroRecomendados .card-livro {
+  margin-top: 22px;
+  padding: 17px 30px;
+
+  border: 2px solid black;
+  background-color: var(--card);
+  box-shadow: 8px 8px 0px 0px var(--sombra);
+
+  align-items: center;
+}
+
+.card-livroRecomendados .card-livro h4 {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.card-livroRecomendados .card-livro p {
+  padding-top: 5px;
+  width: 231px;
+  font-size: 16px;
+}
+
+.card-livroRecomendados .card-livro button {
+  text-transform: uppercase;
+  background-color: var(--roxo-claro);
+  border-radius: 11px;
+  font-weight: 600;
+
+  margin-top: 12px;
+  padding: 9px 40px;
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+.card-livroRecomendados .card-livro button:hover {
+  background-color: var(--roxo-escuro);
+}
+
+.card-livroRecomendados .card-livro img {
+  position: relative;
+  top: 10px;
+  padding-left: 95px;
+}
+
+/* SECTION */
+.card-leitor {
+  border: 2px solid black;
+  background-color: var(--card);
+  box-shadow: 8px 8px 0px 0px var(--sombra);
+
+  overflow-y: auto;
+
+  width: 565px;
+  height: 720px;
+  padding: 25px;
+}
+
+.card-leitor .titulo-card {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+#recomendados {
+  display: flex;
+}
+
+/* LIVROS LISTADOS */
+#section-card-lista {
+  margin-top: 240px;
+}
+
+#card-lista {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  padding-top: 20px;
+  max-width: 1200px;
+}
+
+.card-livroListados {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.card-livroListados h3 {
+  border: 2px solid black;
+  padding: 10px 34px;
+  font-size: 17px;
+
+  background-color: var(--card-tip);
+  box-shadow: 6px 6px 0px 0px var(--sombra);
+}
+
+.card-livroListados .card-livro {
+  margin-top: 22px;
+  margin-left: 22px;
+  padding: 17px 20px;
+  min-width: 343px;
+  min-height: 194px;
+
+  border: 2px solid black;
+  background-color: var(--card);
+  box-shadow: 8px 8px 0px 0px var(--sombra);
+
+  align-items: center;
+}
+
+.card-livroListados .card-livro h4 {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.card-livroListados .card-livro p {
+  padding-top: 5px;
+  width: 250px;
+  font-size: 16px;
+}
+
+.card-livroListados .card-livro button {
+  text-transform: uppercase;
+  background-color: var(--roxo-claro);
+  border-radius: 11px;
+  font-weight: 600;
+
+  margin-top: 12px;
+  padding: 9px 40px;
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+.card-livroListados .card-livro button:hover {
+  background-color: var(--roxo-escuro);
+}
+
+.card-livroListados .card-livro img {
+  position: relative;
+  top: 10px;
+  padding-left: 95px;
+}
