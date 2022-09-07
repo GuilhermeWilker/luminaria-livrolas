@@ -8,17 +8,17 @@
 
 ## Demonstração da aplicação
 
-<h5>Pagina inicial - tema padrão</h5>
+<h4>Pagina inicial - tema padrão</h4>
 <img width="500px" src="src/img/readme-img/Group%2044.png" />
 <img width="500px" src="src/img/readme-img/demo-pagina-inicial.png" />
 
-<h5>Pagina inicial - tema noturno</h5>
+<h4>Pagina inicial - tema noturno</h4>
 <img width="500px" src="src/img/readme-img/Group%2043.png" />
 <img width="500px" src="src/img/readme-img/Group%2042.png" />
 
 - Nestes ambientes demos o foco principal na leitura do usuário, <br> enfatizando o leitor de texto e também apresentando uma tipografia clara deixando sua leitura mais prazerosa.
 
-<h5>Listagem dos livros - tema padrão e noturno</h5>
+<h4>Listagem dos livros - tema padrão e noturno</h4>
 <img width="500px" src="src/img/readme-img/demo-pagina-lista.png" />
 <img width="500px" src="src/img/readme-img/Group%2041.png" />
 
